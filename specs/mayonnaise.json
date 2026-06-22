@@ -1,0 +1,32 @@
+{
+  "sku": "Mayonnaise",
+  "archetype": "D",
+  "bg": "#F6D55C",
+  "pattern": { "kind": "glyphs", "glyph": "Aji", "step": 0.20, "contrast": 1.07 },
+  "elements": [
+    {
+      "type": "image", "box": [0.50, 0.50, 0.46, 0.42],
+      "file": null, "placeholder": true, "shadow": true,
+      "label": "PHOTO - packshot: Ajinomoto Mayonnaise bottle, front, clean cut-out on transparent bg"
+    },
+    {
+      "type": "image", "box": [0.06, 0.55, 0.40, 0.34],
+      "file": null, "placeholder": true, "shadow": false,
+      "label": "PHOTO - hero: creamy mayo dollop / swirl on a dish, close-up, lower-left"
+    },
+    {
+      "type": "text", "role": "headline", "font": "brush",
+      "text": "CREAMY ON EVERYTHING",
+      "at": [0.40, 0.34], "size": 0.066, "color": "#6E4E00", "stroke": 0.0, "maxw": 0.66
+    },
+    {
+      "type": "text", "role": "caption", "font": "brush", "text": "Ajinomoto Mayonnaise",
+      "at": [0.40, 0.45], "size": 0.038, "color": "#8A5A00", "stroke_color": "#FFFFFF", "stroke": 0.03
+    }
+  ],
+  "furniture": {
+    "top_right": { "file": "assets/brand/eat-well-aji.png" },
+    "top_left": { "file": "assets/brand/mayo-logo.png", "text": "MAYONNAISE", "color": "#C0202B" },
+    "bottom_left": { "file": "assets/brand/ajinomoto-corp.png" }
+  }
+}

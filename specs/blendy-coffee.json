@@ -1,0 +1,42 @@
+{
+  "sku": "AGF Blendy Coffee",
+  "archetype": "C",
+  "bg": "#6B4226",
+  "pattern": { "kind": "diagonal", "margin": 0.34 },
+  "elements": [
+    {
+      "type": "image",
+      "box": [0.06, 0.10, 0.88, 0.52],
+      "file": null, "placeholder": true, "shadow": false,
+      "label": "PHOTO - hero: coffee being poured into a white mug, overhead or 45deg, steam visible, edge-bleed"
+    },
+    {
+      "type": "image",
+      "box": [0.30, 0.56, 0.40, 0.34],
+      "file": null, "placeholder": true, "shadow": true,
+      "label": "PHOTO - packshot: AGF Blendy jar/stick pack front, clean cut-out on transparent bg"
+    },
+    {
+      "type": "highlight",
+      "box": [0.20, 0.635, 0.60, 0.085],
+      "color": "#E8D9C0", "radius": 0.40, "rotate": -2
+    },
+    {
+      "type": "text", "role": "headline", "font": "brush",
+      "text": "START YOUR DAY THE JAPAN WAY",
+      "at": [0.50, 0.677], "size": 0.052, "color": "#4A2A18",
+      "stroke": 0.0, "maxw": 0.56, "rotate": -2
+    },
+    {
+      "type": "text", "role": "caption", "font": "brush",
+      "text": "AGF Blendy Coffee",
+      "at": [0.50, 0.93], "size": 0.044,
+      "color": "#FFFFFF", "stroke_color": "#3A2114", "stroke": 0.045
+    }
+  ],
+  "furniture": {
+    "top_right": { "file": "assets/brand/eat-well-aji.png" },
+    "top_left":  { "file": "assets/brand/blendy-logo.png", "text": "BLENDY", "color": "#FFFFFF" },
+    "bottom_left": { "file": "assets/brand/ajinomoto-corp.png" }
+  }
+}

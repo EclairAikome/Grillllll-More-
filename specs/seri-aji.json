@@ -1,0 +1,37 @@
+{
+  "sku": "Seri-Aji",
+  "archetype": "F",
+  "bg": "#C0202B",
+  "pattern": { "kind": "diagonal", "margin": 0.32 },
+  "elements": [
+    {
+      "type": "image", "box": [0.05, 0.20, 0.60, 0.62],
+      "file": null, "placeholder": true, "shadow": true,
+      "label": "PHOTO - polaroid dish: fried rice made with Seri-Aji, styled in a polaroid frame look, slight tilt, table props (chillies, spring onion) around"
+    },
+    {
+      "type": "image", "box": [0.60, 0.55, 0.36, 0.36],
+      "file": null, "placeholder": true, "shadow": true,
+      "label": "PHOTO - packshot: Seri-Aji sachet front, clean cut-out on transparent bg"
+    },
+    {
+      "type": "text", "role": "headline", "font": "brush",
+      "text": "WHICH SERI-AJI ARE YOU?",
+      "at": [0.36, 0.105], "size": 0.052, "color": "#FFFFFF", "stroke_color": "#7A0E15", "stroke": 0.04, "maxw": 0.62
+    },
+    {
+      "type": "text", "role": "subhead", "font": "brush",
+      "text": "Today's mood -",
+      "at": [0.24, 0.155], "size": 0.034, "color": "#F2C14E", "stroke": 0.0, "maxw": 0.5
+    },
+    {
+      "type": "text", "role": "caption", "font": "brush", "text": "Seri-Aji",
+      "at": [0.78, 0.93], "size": 0.046, "color": "#FFFFFF", "stroke_color": "#7A0E15", "stroke": 0.045
+    }
+  ],
+  "furniture": {
+    "top_right": { "file": "assets/brand/eat-well-aji.png" },
+    "top_left": { "file": "assets/brand/seri-aji-logo.png", "text": "SERI-AJI", "color": "#FFFFFF" },
+    "bottom_left": { "file": "assets/brand/ajinomoto-corp.png" }
+  }
+}

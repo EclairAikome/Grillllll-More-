@@ -1,0 +1,68 @@
+{
+  "_comment": "One post = one SKU. Coordinates are FRACTIONS of the square canvas (0..1). Set photos to placeholder:true (or omit file) until the real photo arrives; the renderer draws a labelled dashed box. See references/style-guide.md.",
+  "sku": "SKU NAME",
+  "archetype": "A|B|C|D|E|F",
+  "bg": "#D02329",
+  "pattern": {
+    "kind": "none|dots|diagonal|ground|glyphs",
+    "contrast": 1.12,
+    "step": 0.13,
+    "color": "#F4D21E",
+    "height": 0.32,
+    "margin": 0.30,
+    "glyph": "Aji"
+  },
+  "elements": [
+    {
+      "type": "image",
+      "box": [0.30, 0.18, 0.40, 0.42],
+      "file": null,
+      "placeholder": true,
+      "label": "PHOTO - hero: describe the real shot needed",
+      "shadow": false
+    },
+    {
+      "type": "image",
+      "box": [0.34, 0.55, 0.32, 0.34],
+      "file": null,
+      "placeholder": true,
+      "label": "PHOTO - packshot: product front, clean cut-out on transparent bg",
+      "shadow": true
+    },
+    {
+      "type": "highlight",
+      "box": [0.18, 0.06, 0.64, 0.10],
+      "color": "#5FD0E0",
+      "radius": 0.35,
+      "rotate": -2
+    },
+    {
+      "type": "text",
+      "role": "headline",
+      "font": "brush",
+      "text": "HEADLINE COPY",
+      "at": [0.50, 0.11],
+      "size": 0.072,
+      "color": "#1A1A1A",
+      "stroke": 0.0,
+      "maxw": 0.80,
+      "rotate": -2
+    },
+    {
+      "type": "text",
+      "role": "caption",
+      "font": "brush",
+      "text": "Sku Name",
+      "at": [0.50, 0.92],
+      "size": 0.045,
+      "color": "#FFFFFF",
+      "stroke_color": "#3A1A12",
+      "stroke": 0.04
+    }
+  ],
+  "furniture": {
+    "top_right": { "file": "assets/brand/eat-well-aji.png" },
+    "top_left":  { "file": null, "text": "BLENDY", "color": "#FFFFFF" },
+    "bottom_left": { "file": "assets/brand/ajinomoto-corp.png" }
+  }
+}

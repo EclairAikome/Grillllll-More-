@@ -1,0 +1,34 @@
+{
+  "sku": "Tumix",
+  "archetype": "A",
+  "bg": "#E2511E",
+  "pattern": { "kind": "dots", "step": 0.14, "contrast": 1.10 },
+  "elements": [
+    {
+      "type": "image", "box": [0.30, 0.26, 0.66, 0.50],
+      "file": null, "placeholder": true, "shadow": false,
+      "label": "PHOTO - prop+dish: finished dish made with Tumix, plus a few raw ingredients scattered, right side, edge-bleed"
+    },
+    {
+      "type": "image", "box": [0.06, 0.40, 0.34, 0.40],
+      "file": null, "placeholder": true, "shadow": true,
+      "label": "PHOTO - packshot: Tumix pack front, clean cut-out on transparent bg"
+    },
+    {
+      "type": "highlight", "box": [0.10, 0.82, 0.80, 0.085], "color": "#FFD23F", "radius": 0.4, "rotate": -2 },
+    {
+      "type": "text", "role": "headline", "font": "brush",
+      "text": "ONE SHAKE, FULL FLAVOUR",
+      "at": [0.50, 0.862], "size": 0.058, "color": "#7A2A0E", "stroke": 0.0, "maxw": 0.74, "rotate": -2
+    },
+    {
+      "type": "text", "role": "caption", "font": "brush", "text": "Tumix",
+      "at": [0.22, 0.115], "size": 0.05, "color": "#FFFFFF", "stroke_color": "#7A2A0E", "stroke": 0.045
+    }
+  ],
+  "furniture": {
+    "top_right": { "file": "assets/brand/eat-well-aji.png" },
+    "top_left": { "file": "assets/brand/tumix-logo.png", "text": "TUMIX", "color": "#FFFFFF" },
+    "bottom_left": { "file": "assets/brand/ajinomoto-corp.png" }
+  }
+}

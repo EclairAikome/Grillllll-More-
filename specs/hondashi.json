@@ -1,0 +1,34 @@
+{
+  "sku": "Hondashi",
+  "archetype": "C",
+  "bg": "#1E8C8C",
+  "pattern": { "kind": "none" },
+  "elements": [
+    {
+      "type": "image", "box": [0.04, 0.20, 0.92, 0.56],
+      "file": null, "placeholder": true, "shadow": false,
+      "label": "PHOTO - hero: steaming bowl of miso soup / dashi broth, overhead or 45deg, edge-bleed"
+    },
+    {
+      "type": "image", "box": [0.56, 0.60, 0.40, 0.34],
+      "file": null, "placeholder": true, "shadow": true,
+      "label": "PHOTO - packshot: Hondashi jar/sachet front, clean cut-out on transparent bg"
+    },
+    {
+      "type": "highlight", "box": [0.08, 0.075, 0.58, 0.085], "color": "#F2C14E", "radius": 0.4, "rotate": -1 },
+    {
+      "type": "text", "role": "headline", "font": "brush",
+      "text": "REAL DASHI IN SECONDS",
+      "at": [0.37, 0.118], "size": 0.05, "color": "#1A4E4E", "stroke": 0.0, "maxw": 0.52, "rotate": -1
+    },
+    {
+      "type": "text", "role": "caption", "font": "brush", "text": "Hondashi",
+      "at": [0.30, 0.90], "size": 0.05, "color": "#FFFFFF", "stroke_color": "#14403F", "stroke": 0.045
+    }
+  ],
+  "furniture": {
+    "top_right": { "file": "assets/brand/eat-well-aji.png" },
+    "top_left": { "file": "assets/brand/hondashi-logo.png", "text": "HONDASHI", "color": "#FFFFFF" },
+    "bottom_left": { "file": "assets/brand/ajinomoto-corp.png" }
+  }
+}

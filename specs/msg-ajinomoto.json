@@ -1,0 +1,37 @@
+{
+  "sku": "MSG (Aji-no-moto)",
+  "archetype": "B",
+  "bg": "#E20A17",
+  "pattern": { "kind": "ground", "color": "#FFFFFF", "height": 0.34 },
+  "elements": [
+    {
+      "type": "image", "box": [0.05, 0.20, 0.43, 0.40],
+      "file": null, "placeholder": true, "shadow": false,
+      "label": "PHOTO - dish A: everyday savoury dish (e.g. stir-fry), left panel, edge-bleed"
+    },
+    {
+      "type": "image", "box": [0.52, 0.20, 0.43, 0.40],
+      "file": null, "placeholder": true, "shadow": false,
+      "label": "PHOTO - dish B: a different everyday dish (e.g. soup), right panel, edge-bleed"
+    },
+    {
+      "type": "image", "box": [0.33, 0.60, 0.34, 0.28],
+      "file": null, "placeholder": true, "shadow": true,
+      "label": "PHOTO - packshot: Aji-no-moto (MSG) shaker/pack front, clean cut-out on transparent bg, centred on white strip"
+    },
+    {
+      "type": "text", "role": "headline", "font": "brush",
+      "text": "THE SECRET TO UMAMI",
+      "at": [0.50, 0.115], "size": 0.062, "color": "#FFFFFF", "stroke_color": "#8A0009", "stroke": 0.04, "maxw": 0.74
+    },
+    {
+      "type": "text", "role": "caption", "font": "brush", "text": "Aji-no-moto",
+      "at": [0.50, 0.92], "size": 0.044, "color": "#E20A17", "stroke_color": "#FFFFFF", "stroke": 0.03
+    }
+  ],
+  "furniture": {
+    "top_right": { "file": "assets/brand/eat-well-aji.png" },
+    "top_left": { "file": "assets/brand/ajinomoto-msg-logo.png", "text": "AJI-NO-MOTO", "color": "#FFFFFF" },
+    "bottom_left": { "file": "assets/brand/ajinomoto-corp.png" }
+  }
+}
